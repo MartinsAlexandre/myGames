@@ -1,12 +1,12 @@
 <template>
-  <HeadPage />
+  <Game />
 </template>
 
 <script>
-import HeadPage from "../components/listGames/firstGame/HeadPage.vue";
+import Game from "../components/listGames/firstGame/Game.vue";
 
 export default {
-  components: { HeadPage },
+  components: { Game },
   name: "FirstGame",
 };
 </script>
