@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import FirstGame from '../views/FirstGame'
+import Nounoura from '../views/Nounoura'
 
 Vue.use(VueRouter)
 
@@ -15,6 +16,11 @@ const routes = [
     path: '/first-game',
     name: 'FirstGame',
     component: FirstGame
+  },
+  {
+    path: '/nounoura',
+    name: 'Nounoura',
+    component: Nounoura
   },
   {
     path: '/about',

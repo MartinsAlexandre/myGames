@@ -22,7 +22,10 @@
 
       <v-col cols="12" class="d-flex justify-center">
         <v-btn dark @click="$router.push({ name: 'FirstGame' })"
-          >Aller au jeux 1</v-btn
+          >Test jeux 1</v-btn
+        >
+         <v-btn dark @click="$router.push({ name: 'Nounoura' })" class="ml-2"
+          >Nounoura</v-btn
         >
       </v-col>
     </v-row>
